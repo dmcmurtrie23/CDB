@@ -1,0 +1,14 @@
+# AFL Numbers — Python dependencies
+# Install with:  pip install -r requirements.txt
+#
+# Tested on Python 3.10+. Versions pinned conservatively to current stable
+# releases known to work with the use_container_width -> width='stretch' API.
+
+streamlit>=1.39
+pandas>=2.0
+requests>=2.31
+altair>=5.0
+numpy>=1.24
+
+# Optional — only needed for the "Ask AI" tab
+anthropic>=0.39
